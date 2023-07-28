@@ -1,0 +1,33 @@
+		bool flag = false;
+		int result = 0;
+		string text = string.Empty;
+		using (FileStream fileStream = new FileStream(txtProgram.Text.Trim(), FileMode.Open, FileAccess.Read))
+		{
+			byte[] byte_ = new byte[16];
+			fileStream.Seek(8192L, SeekOrigin.Begin);
+			fileStream.Read(byte_, 0, 16);
+			GClass0.smethod_3(ref byte_);
+			text = Encoding.ASCII.GetString(byte_, 0, 16);
+			if (text.Substring(0, 1).Equals("*"))
+			{
+				flag = true;
+			}
+			if (!flag && !int.TryParse(text.Split('.')[0], out result))
+			{
+				MessageBox.Show(this, GClass6.resourceManager_0.GetString("FrmMain_FileVerErr"), GClass6.resourceManager_0.GetString("DialogTitle_Warning"), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+				return;
+			}
+		}
+		if (!flag)
+		{
+			if (result <= 0)
+			{
+				MessageBox.Show(this, GClass6.resourceManager_0.GetString("FrmMain_FileVerErr"), GClass6.resourceManager_0.GetString("DialogTitle_Warning"), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+				return;
+			}
+			if ((result != 2 || int_3 != -1) && result != int_3)
+			{
+				MessageBox.Show(this, GClass6.resourceManager_0.GetString("FrmMain_FileVerValid"), GClass6.resourceManager_0.GetString("DialogTitle_Warning"), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+				return;
+			}
+		}
