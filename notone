@@ -1,0 +1,127 @@
+system.hpp >>>>>>>>>>>>>>>>     .PlayTone = (decltype(TOrgFunctions::PlayTone) (0x9f14 +1 )),
+ 
+ void handle_beep?(BeepType param_1,undefined4 param_2,undefined4 param_3,uint param_4)
+{
+  char cVar1;
+  uint original_0x71_state;
+  uint tone_frequency_to_play;
+  int iVar2;
+  undefined4 extraout_r1;
+  undefined4 extraout_r1_00;
+  undefined4 extraout_r1_01;
+  undefined4 extraout_r1_02;
+  undefined4 uVar3;
+  
+  if (((param_1 != 500Hz_doublebeep) && (param_1 != 440Hz_500ms)) && (cVar1 = beep?, cVar1 == '\0'))
+  {
+    return;
+  }
+  cVar1 = roger_setting?;
+  if (cVar1 == '\x04') {
+    return;
+  }
+  cVar1 = DAT_200003d8;
+  if (cVar1 == '\x04') {
+    return;
+  }
+  if (cVar1 == '\x02') {
+    return;
+  }
+  original_0x71_state = BK4819_read_register(0x71);
+  clear_bit((uint *)&GPIO_PORTC,4);
+  cVar1 = DAT_200003d8;
+  uVar3 = extraout_r1;
+  if ((cVar1 == '\x05') && (cVar1 = DAT_200003da, cVar1 == '\x01')) {
+    FUN_0000aedc();
+    uVar3 = extraout_r1_00;
+  }
+  cVar1 = DAT_2000038d;
+  if (cVar1 == '\x01') {
+    FUN_0000a278(1,uVar3,param_3,param_4);
+  }
+  delay_ms(0x14);
+  if (param_1 == 1KHz_60ms_ifbeepenabled) {
+    tone_frequency_to_play = 2040;
+  }
+  else if ((param_1 == 500Hz_doublebeep_ifbeepenabled) || (param_1 == 500Hz_doublebeep)) {
+    tone_frequency_to_play = 500;
+  }
+  else {
+    tone_frequency_to_play = 440;
+  }
+  PlayTone(tone_frequency_to_play,1);
+  delay_ms(2);
+  set_bit((uint *)&GPIO_PORTC,4);
+  delay_ms(60);
+  if (param_1 != 1KHz_60ms_ifbeepenabled) {
+    if ((param_1 != 500Hz_doublebeep_ifbeepenabled) && (param_1 != 500Hz_doublebeep)) {
+      call_some_dtmf_stuff();
+      iVar2 = 500;
+      goto LAB_00005a72;
+    }
+    call_some_dtmf_stuff();
+    delay_ms(60);
+    call_AF_TX_Mute();
+    delay_ms(20);
+  }
+  call_some_dtmf_stuff();
+  iVar2 = 60;
+LAB_00005a72:
+  delay_ms(iVar2);
+  call_AF_TX_Mute();
+  delay_ms(20);
+  clear_bit((uint *)&GPIO_PORTC,4);
+  DAT_200003b6 = 80;
+  delay_ms(5);
+  FUN_00009ee8();
+  delay_ms(5);
+  BK4819_write(0x71,(ushort)original_0x71_state);
+  cVar1 = DAT_2000036b;
+  uVar3 = extraout_r1_01;
+  if (cVar1 == '\x01') {
+    set_bit((uint *)&GPIO_PORTC,4);
+    uVar3 = extraout_r1_02;
+  }
+  cVar1 = DAT_2000038d;
+  if (cVar1 == '\x01') {
+    FUN_0000a278(0,uVar3,param_3,param_4);
+  }
+  cVar1 = DAT_200003d8;
+  if ((cVar1 == '\x05') && (cVar1 = DAT_200003da, cVar1 == '\x01')) {
+    FUN_0000ab40();
+  }
+  return;
+}
+################################################################################################################################################
+system.hpp >>>>>>>>>>>>>>>>>>>>>>> .PlayUnid = (decltype(TOrgFunctions::PlayUnid) (0xAEDC +1 )),
+     
+void FUN_0000aedc(void)
+
+{
+  BK4819_write(0x37,0x1f0f);
+  BK4819_write(0x30,0);
+  BK4819_write(0x30,0xbff1);
+  return;
+}
+
+################################################################################################################################################
+code:>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+     Fw.PlayUnid();
+       for (u16 l=500;l<8000;l++) 
+	{
+      GPIOB->DATA &= ~GPIO_PIN_4;
+        Fw.DelayMs(0x14);
+        Fw.PlayTone(l,1);
+        Fw.DelayMs(0x02);
+      GPIOB->DATA |= ~GPIO_PIN_4;
+        Fw.DelayMs(60);
+        ..
+      Fw.FlushFramebufferToScreen();
+..
+}
+################################################################################################################################################   
+
+
+result no tone
