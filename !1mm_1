@@ -1,0 +1,660 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pip in /home/user/.local/lib/python3.10/site-packages (23.3.1)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: setuptools in /home/user/.local/lib/python3.10/site-packages (68.2.2)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: build in /home/user/.local/lib/python3.10/site-packages (1.0.3)
+Requirement already satisfied: packaging>=19.0 in /usr/lib/python3/dist-packages (from build) (21.3)
+Requirement already satisfied: pyproject_hooks in /home/user/.local/lib/python3.10/site-packages (from build) (1.0.0)
+Requirement already satisfied: tomli>=1.1.0 in /home/user/.local/lib/python3.10/site-packages (from build) (2.0.1)
+Nothing to uninstall for not1mm 😴
+⚠️  Note: '/home/user/.local/bin/not1mm' still exists on your system and is on your PATH
+* Creating venv isolated environment...
+* Installing packages in isolated environment... (setuptools)
+* Getting build dependencies for sdist...
+running egg_info
+writing not1mm.egg-info/PKG-INFO
+writing dependency_links to not1mm.egg-info/dependency_links.txt
+writing entry points to not1mm.egg-info/entry_points.txt
+writing requirements to not1mm.egg-info/requires.txt
+writing top-level names to not1mm.egg-info/top_level.txt
+reading manifest file 'not1mm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'not1mm.egg-info/SOURCES.txt'
+* Building sdist...
+running sdist
+running egg_info
+writing not1mm.egg-info/PKG-INFO
+writing dependency_links to not1mm.egg-info/dependency_links.txt
+writing entry points to not1mm.egg-info/entry_points.txt
+writing requirements to not1mm.egg-info/requires.txt
+writing top-level names to not1mm.egg-info/top_level.txt
+reading manifest file 'not1mm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'not1mm.egg-info/SOURCES.txt'
+running check
+creating not1mm-23.11.2
+creating not1mm-23.11.2/not1mm
+creating not1mm-23.11.2/not1mm.egg-info
+creating not1mm-23.11.2/not1mm/data
+creating not1mm-23.11.2/not1mm/data/phonetics
+creating not1mm-23.11.2/not1mm/lib
+creating not1mm-23.11.2/not1mm/plugins
+creating not1mm-23.11.2/not1mm/testing
+creating not1mm-23.11.2/usb_vfo_knob
+copying files to not1mm-23.11.2...
+copying LICENSE -> not1mm-23.11.2
+copying README.md -> not1mm-23.11.2
+copying pyproject.toml -> not1mm-23.11.2
+copying not1mm/__init__.py -> not1mm-23.11.2/not1mm
+copying not1mm/__main__.py -> not1mm-23.11.2/not1mm
+copying not1mm/bandmap.py -> not1mm-23.11.2/not1mm
+copying not1mm/checkwindow.py -> not1mm-23.11.2/not1mm
+copying not1mm/logwindow.py -> not1mm-23.11.2/not1mm
+copying not1mm/vfo.py -> not1mm-23.11.2/not1mm
+copying not1mm.egg-info/PKG-INFO -> not1mm-23.11.2/not1mm.egg-info
+copying not1mm.egg-info/SOURCES.txt -> not1mm-23.11.2/not1mm.egg-info
+copying not1mm.egg-info/dependency_links.txt -> not1mm-23.11.2/not1mm.egg-info
+copying not1mm.egg-info/entry_points.txt -> not1mm-23.11.2/not1mm.egg-info
+copying not1mm.egg-info/requires.txt -> not1mm-23.11.2/not1mm.egg-info
+copying not1mm.egg-info/top_level.txt -> not1mm-23.11.2/not1mm.egg-info
+copying not1mm/data/JetBrainsMono-Regular.ttf -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/MASTER.SCP -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/about.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/alpha bravo charlie delta.txt -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/bandmap.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/check.png -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/checkwindow.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/configuration.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/contests.sql -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/cty.json -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/cwmacros.txt -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/donors.html -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/editcontact.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/editmacro.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/greendot.png -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/k6gte-not1mm.desktop -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/k6gte.not1mm-128.png -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/k6gte.not1mm-32.png -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/k6gte.not1mm-64.png -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/logwindow.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/main.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/new_contest.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/not1mm.html -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/opon.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/pickcontest.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/radio_green.png -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/radio_grey.png -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/radio_red.png -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/reddot.png -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/settings.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/ssbmacros.txt -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/vfo.ui -> not1mm-23.11.2/not1mm/data
+copying not1mm/data/phonetics/0.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/1.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/2.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/3.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/4.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/5.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/6.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/7.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/73.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/8.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/9.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/a.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/again.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/b.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/c.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/contest.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/cq.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/d.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/e.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/f.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/g.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/h.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/i.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/j.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/k.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/k6gte.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/l.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/m.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/mynumber.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/n.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/nil.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/o.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/p.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/q.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/r.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/roger.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/s.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/space.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/t.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/thankyou.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/thankyouqrz.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/u.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/v.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/w.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/x.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/y.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/yourcall.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/data/phonetics/z.wav -> not1mm-23.11.2/not1mm/data/phonetics
+copying not1mm/lib/__init__.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/about.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/cat_interface.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/cwinterface.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/database.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/edit_contact.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/edit_macro.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/edit_opon.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/edit_station.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/ham_utility.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/lookup.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/multicast.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/n1mm.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/new_contest.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/select_contest.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/settings.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/super_check_partial.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/version.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/lib/versiontest.py -> not1mm-23.11.2/not1mm/lib
+copying not1mm/plugins/10_10_fall_cw.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/10_10_spring_cw.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/10_10_summer_phone.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/10_10_winter_phone.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/__init__.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/arrl_dx_cw.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/arrl_dx_ssb.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/arrl_field_day.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/arrl_rtty_ru.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/arrl_ss_cw.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/arrl_ss_phone.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/canada_day.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/cq_wpx_cw.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/cq_wpx_ssb.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/cq_ww_cw.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/cq_ww_ssb.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/cwt.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/general_logging.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/iaru_hf.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/jidx_cw.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/jidx_ph.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/naqp_cw.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/naqp_ssb.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/plugins/winter_field_day.py -> not1mm-23.11.2/not1mm/plugins
+copying not1mm/testing/fakeflrig.py -> not1mm-23.11.2/not1mm/testing
+copying not1mm/testing/flrigclient.py -> not1mm-23.11.2/not1mm/testing
+copying not1mm/testing/multicast_listener.py -> not1mm-23.11.2/not1mm/testing
+copying not1mm/testing/n1mm_listener.py -> not1mm-23.11.2/not1mm/testing
+copying usb_vfo_knob/code.py -> not1mm-23.11.2/usb_vfo_knob
+Writing not1mm-23.11.2/setup.cfg
+Creating tar archive
+removing 'not1mm-23.11.2' (and everything under it)
+* Building wheel from sdist
+* Creating venv isolated environment...
+* Installing packages in isolated environment... (setuptools)
+* Getting build dependencies for wheel...
+running egg_info
+writing not1mm.egg-info/PKG-INFO
+writing dependency_links to not1mm.egg-info/dependency_links.txt
+writing entry points to not1mm.egg-info/entry_points.txt
+writing requirements to not1mm.egg-info/requires.txt
+writing top-level names to not1mm.egg-info/top_level.txt
+reading manifest file 'not1mm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'not1mm.egg-info/SOURCES.txt'
+* Installing packages in isolated environment... (wheel)
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/not1mm
+copying not1mm/bandmap.py -> build/lib/not1mm
+copying not1mm/logwindow.py -> build/lib/not1mm
+copying not1mm/vfo.py -> build/lib/not1mm
+copying not1mm/__init__.py -> build/lib/not1mm
+copying not1mm/checkwindow.py -> build/lib/not1mm
+copying not1mm/__main__.py -> build/lib/not1mm
+creating build/lib/usb_vfo_knob
+copying usb_vfo_knob/code.py -> build/lib/usb_vfo_knob
+creating build/lib/not1mm/testing
+copying not1mm/testing/flrigclient.py -> build/lib/not1mm/testing
+copying not1mm/testing/fakeflrig.py -> build/lib/not1mm/testing
+copying not1mm/testing/multicast_listener.py -> build/lib/not1mm/testing
+copying not1mm/testing/n1mm_listener.py -> build/lib/not1mm/testing
+creating build/lib/not1mm/lib
+copying not1mm/lib/ham_utility.py -> build/lib/not1mm/lib
+copying not1mm/lib/edit_station.py -> build/lib/not1mm/lib
+copying not1mm/lib/edit_contact.py -> build/lib/not1mm/lib
+copying not1mm/lib/versiontest.py -> build/lib/not1mm/lib
+copying not1mm/lib/super_check_partial.py -> build/lib/not1mm/lib
+copying not1mm/lib/cat_interface.py -> build/lib/not1mm/lib
+copying not1mm/lib/version.py -> build/lib/not1mm/lib
+copying not1mm/lib/select_contest.py -> build/lib/not1mm/lib
+copying not1mm/lib/lookup.py -> build/lib/not1mm/lib
+copying not1mm/lib/n1mm.py -> build/lib/not1mm/lib
+copying not1mm/lib/edit_macro.py -> build/lib/not1mm/lib
+copying not1mm/lib/database.py -> build/lib/not1mm/lib
+copying not1mm/lib/about.py -> build/lib/not1mm/lib
+copying not1mm/lib/cwinterface.py -> build/lib/not1mm/lib
+copying not1mm/lib/__init__.py -> build/lib/not1mm/lib
+copying not1mm/lib/multicast.py -> build/lib/not1mm/lib
+copying not1mm/lib/settings.py -> build/lib/not1mm/lib
+copying not1mm/lib/edit_opon.py -> build/lib/not1mm/lib
+copying not1mm/lib/new_contest.py -> build/lib/not1mm/lib
+creating build/lib/not1mm/plugins
+copying not1mm/plugins/cq_wpx_ssb.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/arrl_dx_ssb.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/jidx_ph.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/naqp_cw.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/cq_ww_ssb.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/cq_wpx_cw.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/10_10_spring_cw.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/general_logging.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/winter_field_day.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/arrl_rtty_ru.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/arrl_dx_cw.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/10_10_summer_phone.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/naqp_ssb.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/10_10_fall_cw.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/arrl_field_day.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/__init__.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/arrl_ss_phone.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/jidx_cw.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/arrl_ss_cw.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/iaru_hf.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/canada_day.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/cwt.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/cq_ww_cw.py -> build/lib/not1mm/plugins
+copying not1mm/plugins/10_10_winter_phone.py -> build/lib/not1mm/plugins
+running egg_info
+writing not1mm.egg-info/PKG-INFO
+writing dependency_links to not1mm.egg-info/dependency_links.txt
+writing entry points to not1mm.egg-info/entry_points.txt
+writing requirements to not1mm.egg-info/requires.txt
+writing top-level names to not1mm.egg-info/top_level.txt
+reading manifest file 'not1mm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'not1mm.egg-info/SOURCES.txt'
+creating build/lib/not1mm/data
+copying not1mm/data/JetBrainsMono-Regular.ttf -> build/lib/not1mm/data
+copying not1mm/data/MASTER.SCP -> build/lib/not1mm/data
+copying not1mm/data/about.ui -> build/lib/not1mm/data
+copying not1mm/data/alpha bravo charlie delta.txt -> build/lib/not1mm/data
+copying not1mm/data/bandmap.ui -> build/lib/not1mm/data
+copying not1mm/data/check.png -> build/lib/not1mm/data
+copying not1mm/data/checkwindow.ui -> build/lib/not1mm/data
+copying not1mm/data/configuration.ui -> build/lib/not1mm/data
+copying not1mm/data/contests.sql -> build/lib/not1mm/data
+copying not1mm/data/cty.json -> build/lib/not1mm/data
+copying not1mm/data/cwmacros.txt -> build/lib/not1mm/data
+copying not1mm/data/donors.html -> build/lib/not1mm/data
+copying not1mm/data/editcontact.ui -> build/lib/not1mm/data
+copying not1mm/data/editmacro.ui -> build/lib/not1mm/data
+copying not1mm/data/greendot.png -> build/lib/not1mm/data
+copying not1mm/data/k6gte-not1mm.desktop -> build/lib/not1mm/data
+copying not1mm/data/k6gte.not1mm-128.png -> build/lib/not1mm/data
+copying not1mm/data/k6gte.not1mm-32.png -> build/lib/not1mm/data
+copying not1mm/data/k6gte.not1mm-64.png -> build/lib/not1mm/data
+copying not1mm/data/logwindow.ui -> build/lib/not1mm/data
+copying not1mm/data/main.ui -> build/lib/not1mm/data
+copying not1mm/data/new_contest.ui -> build/lib/not1mm/data
+copying not1mm/data/not1mm.html -> build/lib/not1mm/data
+copying not1mm/data/opon.ui -> build/lib/not1mm/data
+copying not1mm/data/pickcontest.ui -> build/lib/not1mm/data
+copying not1mm/data/radio_green.png -> build/lib/not1mm/data
+copying not1mm/data/radio_grey.png -> build/lib/not1mm/data
+copying not1mm/data/radio_red.png -> build/lib/not1mm/data
+copying not1mm/data/reddot.png -> build/lib/not1mm/data
+copying not1mm/data/settings.ui -> build/lib/not1mm/data
+copying not1mm/data/ssbmacros.txt -> build/lib/not1mm/data
+copying not1mm/data/vfo.ui -> build/lib/not1mm/data
+creating build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/0.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/1.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/2.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/3.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/4.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/5.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/6.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/7.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/73.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/8.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/9.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/a.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/again.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/b.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/c.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/contest.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/cq.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/d.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/e.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/f.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/g.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/h.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/i.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/j.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/k.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/k6gte.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/l.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/m.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/mynumber.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/n.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/nil.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/o.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/p.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/q.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/r.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/roger.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/s.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/space.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/t.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/thankyou.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/thankyouqrz.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/u.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/v.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/w.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/x.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/y.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/yourcall.wav -> build/lib/not1mm/data/phonetics
+copying not1mm/data/phonetics/z.wav -> build/lib/not1mm/data/phonetics
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/not1mm
+creating build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/configuration.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/not1mm.html -> build/bdist.linux-x86_64/wheel/not1mm/data
+creating build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/thankyou.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/x.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/73.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/f.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/6.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/0.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/y.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/7.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/2.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/i.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/r.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/h.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/roger.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/p.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/8.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/5.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/t.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/o.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/nil.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/w.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/l.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/3.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/a.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/9.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/b.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/again.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/u.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/k6gte.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/d.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/yourcall.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/v.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/1.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/space.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/4.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/e.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/contest.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/k.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/c.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/j.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/q.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/thankyouqrz.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/z.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/mynumber.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/s.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/m.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/cq.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/g.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/phonetics/n.wav -> build/bdist.linux-x86_64/wheel/not1mm/data/phonetics
+copying build/lib/not1mm/data/radio_red.png -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/cty.json -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/radio_green.png -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/settings.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/checkwindow.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/k6gte-not1mm.desktop -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/contests.sql -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/pickcontest.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/k6gte.not1mm-128.png -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/about.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/radio_grey.png -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/bandmap.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/ssbmacros.txt -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/opon.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/main.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/reddot.png -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/new_contest.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/cwmacros.txt -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/k6gte.not1mm-32.png -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/alpha bravo charlie delta.txt -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/logwindow.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/JetBrainsMono-Regular.ttf -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/editmacro.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/editcontact.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/MASTER.SCP -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/k6gte.not1mm-64.png -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/greendot.png -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/check.png -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/donors.html -> build/bdist.linux-x86_64/wheel/not1mm/data
+copying build/lib/not1mm/data/vfo.ui -> build/bdist.linux-x86_64/wheel/not1mm/data
+creating build/bdist.linux-x86_64/wheel/not1mm/testing
+copying build/lib/not1mm/testing/flrigclient.py -> build/bdist.linux-x86_64/wheel/not1mm/testing
+copying build/lib/not1mm/testing/fakeflrig.py -> build/bdist.linux-x86_64/wheel/not1mm/testing
+copying build/lib/not1mm/testing/multicast_listener.py -> build/bdist.linux-x86_64/wheel/not1mm/testing
+copying build/lib/not1mm/testing/n1mm_listener.py -> build/bdist.linux-x86_64/wheel/not1mm/testing
+copying build/lib/not1mm/bandmap.py -> build/bdist.linux-x86_64/wheel/not1mm
+copying build/lib/not1mm/logwindow.py -> build/bdist.linux-x86_64/wheel/not1mm
+creating build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/ham_utility.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/edit_station.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/edit_contact.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/versiontest.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/super_check_partial.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/cat_interface.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/version.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/select_contest.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/lookup.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/n1mm.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/edit_macro.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/database.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/about.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/cwinterface.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/__init__.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/multicast.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/settings.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/edit_opon.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/lib/new_contest.py -> build/bdist.linux-x86_64/wheel/not1mm/lib
+copying build/lib/not1mm/vfo.py -> build/bdist.linux-x86_64/wheel/not1mm
+copying build/lib/not1mm/__init__.py -> build/bdist.linux-x86_64/wheel/not1mm
+copying build/lib/not1mm/checkwindow.py -> build/bdist.linux-x86_64/wheel/not1mm
+copying build/lib/not1mm/__main__.py -> build/bdist.linux-x86_64/wheel/not1mm
+creating build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/cq_wpx_ssb.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/arrl_dx_ssb.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/jidx_ph.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/naqp_cw.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/cq_ww_ssb.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/cq_wpx_cw.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/10_10_spring_cw.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/general_logging.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/winter_field_day.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/arrl_rtty_ru.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/arrl_dx_cw.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/10_10_summer_phone.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/naqp_ssb.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/10_10_fall_cw.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/arrl_field_day.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/__init__.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/arrl_ss_phone.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/jidx_cw.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/arrl_ss_cw.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/iaru_hf.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/canada_day.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/cwt.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/cq_ww_cw.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+copying build/lib/not1mm/plugins/10_10_winter_phone.py -> build/bdist.linux-x86_64/wheel/not1mm/plugins
+creating build/bdist.linux-x86_64/wheel/usb_vfo_knob
+copying build/lib/usb_vfo_knob/code.py -> build/bdist.linux-x86_64/wheel/usb_vfo_knob
+running install_egg_info
+Copying not1mm.egg-info to build/bdist.linux-x86_64/wheel/not1mm-23.11.2-py3.10.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/not1mm-23.11.2.dist-info/WHEEL
+creating '/home/user/not1mm/dist/.tmp-jw53suyh/not1mm-23.11.2-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'not1mm/__init__.py'
+adding 'not1mm/__main__.py'
+adding 'not1mm/bandmap.py'
+adding 'not1mm/checkwindow.py'
+adding 'not1mm/logwindow.py'
+adding 'not1mm/vfo.py'
+adding 'not1mm/data/JetBrainsMono-Regular.ttf'
+adding 'not1mm/data/MASTER.SCP'
+adding 'not1mm/data/about.ui'
+adding 'not1mm/data/alpha bravo charlie delta.txt'
+adding 'not1mm/data/bandmap.ui'
+adding 'not1mm/data/check.png'
+adding 'not1mm/data/checkwindow.ui'
+adding 'not1mm/data/configuration.ui'
+adding 'not1mm/data/contests.sql'
+adding 'not1mm/data/cty.json'
+adding 'not1mm/data/cwmacros.txt'
+adding 'not1mm/data/donors.html'
+adding 'not1mm/data/editcontact.ui'
+adding 'not1mm/data/editmacro.ui'
+adding 'not1mm/data/greendot.png'
+adding 'not1mm/data/k6gte-not1mm.desktop'
+adding 'not1mm/data/k6gte.not1mm-128.png'
+adding 'not1mm/data/k6gte.not1mm-32.png'
+adding 'not1mm/data/k6gte.not1mm-64.png'
+adding 'not1mm/data/logwindow.ui'
+adding 'not1mm/data/main.ui'
+adding 'not1mm/data/new_contest.ui'
+adding 'not1mm/data/not1mm.html'
+adding 'not1mm/data/opon.ui'
+adding 'not1mm/data/pickcontest.ui'
+adding 'not1mm/data/radio_green.png'
+adding 'not1mm/data/radio_grey.png'
+adding 'not1mm/data/radio_red.png'
+adding 'not1mm/data/reddot.png'
+adding 'not1mm/data/settings.ui'
+adding 'not1mm/data/ssbmacros.txt'
+adding 'not1mm/data/vfo.ui'
+adding 'not1mm/data/phonetics/0.wav'
+adding 'not1mm/data/phonetics/1.wav'
+adding 'not1mm/data/phonetics/2.wav'
+adding 'not1mm/data/phonetics/3.wav'
+adding 'not1mm/data/phonetics/4.wav'
+adding 'not1mm/data/phonetics/5.wav'
+adding 'not1mm/data/phonetics/6.wav'
+adding 'not1mm/data/phonetics/7.wav'
+adding 'not1mm/data/phonetics/73.wav'
+adding 'not1mm/data/phonetics/8.wav'
+adding 'not1mm/data/phonetics/9.wav'
+adding 'not1mm/data/phonetics/a.wav'
+adding 'not1mm/data/phonetics/again.wav'
+adding 'not1mm/data/phonetics/b.wav'
+adding 'not1mm/data/phonetics/c.wav'
+adding 'not1mm/data/phonetics/contest.wav'
+adding 'not1mm/data/phonetics/cq.wav'
+adding 'not1mm/data/phonetics/d.wav'
+adding 'not1mm/data/phonetics/e.wav'
+adding 'not1mm/data/phonetics/f.wav'
+adding 'not1mm/data/phonetics/g.wav'
+adding 'not1mm/data/phonetics/h.wav'
+adding 'not1mm/data/phonetics/i.wav'
+adding 'not1mm/data/phonetics/j.wav'
+adding 'not1mm/data/phonetics/k.wav'
+adding 'not1mm/data/phonetics/k6gte.wav'
+adding 'not1mm/data/phonetics/l.wav'
+adding 'not1mm/data/phonetics/m.wav'
+adding 'not1mm/data/phonetics/mynumber.wav'
+adding 'not1mm/data/phonetics/n.wav'
+adding 'not1mm/data/phonetics/nil.wav'
+adding 'not1mm/data/phonetics/o.wav'
+adding 'not1mm/data/phonetics/p.wav'
+adding 'not1mm/data/phonetics/q.wav'
+adding 'not1mm/data/phonetics/r.wav'
+adding 'not1mm/data/phonetics/roger.wav'
+adding 'not1mm/data/phonetics/s.wav'
+adding 'not1mm/data/phonetics/space.wav'
+adding 'not1mm/data/phonetics/t.wav'
+adding 'not1mm/data/phonetics/thankyou.wav'
+adding 'not1mm/data/phonetics/thankyouqrz.wav'
+adding 'not1mm/data/phonetics/u.wav'
+adding 'not1mm/data/phonetics/v.wav'
+adding 'not1mm/data/phonetics/w.wav'
+adding 'not1mm/data/phonetics/x.wav'
+adding 'not1mm/data/phonetics/y.wav'
+adding 'not1mm/data/phonetics/yourcall.wav'
+adding 'not1mm/data/phonetics/z.wav'
+adding 'not1mm/lib/__init__.py'
+adding 'not1mm/lib/about.py'
+adding 'not1mm/lib/cat_interface.py'
+adding 'not1mm/lib/cwinterface.py'
+adding 'not1mm/lib/database.py'
+adding 'not1mm/lib/edit_contact.py'
+adding 'not1mm/lib/edit_macro.py'
+adding 'not1mm/lib/edit_opon.py'
+adding 'not1mm/lib/edit_station.py'
+adding 'not1mm/lib/ham_utility.py'
+adding 'not1mm/lib/lookup.py'
+adding 'not1mm/lib/multicast.py'
+adding 'not1mm/lib/n1mm.py'
+adding 'not1mm/lib/new_contest.py'
+adding 'not1mm/lib/select_contest.py'
+adding 'not1mm/lib/settings.py'
+adding 'not1mm/lib/super_check_partial.py'
+adding 'not1mm/lib/version.py'
+adding 'not1mm/lib/versiontest.py'
+adding 'not1mm/plugins/10_10_fall_cw.py'
+adding 'not1mm/plugins/10_10_spring_cw.py'
+adding 'not1mm/plugins/10_10_summer_phone.py'
+adding 'not1mm/plugins/10_10_winter_phone.py'
+adding 'not1mm/plugins/__init__.py'
+adding 'not1mm/plugins/arrl_dx_cw.py'
+adding 'not1mm/plugins/arrl_dx_ssb.py'
+adding 'not1mm/plugins/arrl_field_day.py'
+adding 'not1mm/plugins/arrl_rtty_ru.py'
+adding 'not1mm/plugins/arrl_ss_cw.py'
+adding 'not1mm/plugins/arrl_ss_phone.py'
+adding 'not1mm/plugins/canada_day.py'
+adding 'not1mm/plugins/cq_wpx_cw.py'
+adding 'not1mm/plugins/cq_wpx_ssb.py'
+adding 'not1mm/plugins/cq_ww_cw.py'
+adding 'not1mm/plugins/cq_ww_ssb.py'
+adding 'not1mm/plugins/cwt.py'
+adding 'not1mm/plugins/general_logging.py'
+adding 'not1mm/plugins/iaru_hf.py'
+adding 'not1mm/plugins/jidx_cw.py'
+adding 'not1mm/plugins/jidx_ph.py'
+adding 'not1mm/plugins/naqp_cw.py'
+adding 'not1mm/plugins/naqp_ssb.py'
+adding 'not1mm/plugins/winter_field_day.py'
+adding 'not1mm/testing/fakeflrig.py'
+adding 'not1mm/testing/flrigclient.py'
+adding 'not1mm/testing/multicast_listener.py'
+adding 'not1mm/testing/n1mm_listener.py'
+adding 'usb_vfo_knob/code.py'
+adding 'not1mm-23.11.2.dist-info/LICENSE'
+adding 'not1mm-23.11.2.dist-info/METADATA'
+adding 'not1mm-23.11.2.dist-info/WHEEL'
+adding 'not1mm-23.11.2.dist-info/entry_points.txt'
+adding 'not1mm-23.11.2.dist-info/top_level.txt'
+adding 'not1mm-23.11.2.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built not1mm-23.11.2.tar.gz and not1mm-23.11.2-py3-none-any.whl
+⚠️  File exists at /home/user/.local/bin/not1mm and points to
+    /home/user/.local/bin/not1mm, not
+    /home/user/.local/pipx/venvs/not1mm/bin/not1mm. Not modifying.
+  installed package not1mm 23.11.2, installed using Python 3.10.12
+    - not1mm (symlink missing or pointing to unexpected location)
+done! ✨ 🌟 ✨
