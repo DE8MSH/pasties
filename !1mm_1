@@ -658,3 +658,14 @@ Successfully built not1mm-23.11.2.tar.gz and not1mm-23.11.2-py3-none-any.whl
   installed package not1mm 23.11.2, installed using Python 3.10.12
     - not1mm (symlink missing or pointing to unexpected location)
 done! ✨ 🌟 ✨
+
+####################
+
+user@pc:~/not1mm$ not1mm
+Traceback (most recent call last):
+  File "/home/user/.local/bin/not1mm", line 5, in <module>
+    from not1mm.__main__ import run
+  File "/home/user/coding/not1mm/not1mm/__main__.py", line 64, in <module>
+    WORKING_PATH = os.path.dirname(loader.get_filename())
+AttributeError: '_NamespaceLoader' object has no attribute 'get_filename'
+
